@@ -1,0 +1,32 @@
+.banner-design{
+    background: url(https://i.ibb.co/0XpW0zw/beach-1236581-1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }.banner-design .text h1{
+    padding-top: 250px;
+    padding-bottom: 50px;
+    font-size: 100px;
+    color: #fff;
+  }
+  .banner-design .text h2{
+    font-size: 60px;
+    color: #09d3eee7;
+    padding-bottom: 80px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+  
+    .banner-design .text h1{
+      padding-top: 80px;
+      padding-bottom: 50px;
+      font-size: 30px;
+      
+    }
+    .banner-design .text h2{
+      font-size: 40px;
+      color: #09d3eee7;
+      padding-bottom: 50px;
+    }
+  
+  }
