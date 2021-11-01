@@ -1,10 +1,10 @@
 # Prime Hospital
 
-Prime Hospital is a site to search for doctors who are best at their job.
+Ph Travel is a site to search for doctors who are best at their job.
 
 ## Live link
 
-Click to visit the page [PH-Travel](https://prime-hospital-44b8d.firebaseapp.com/)
+Click to visit the page [PH-Travel](https://ph-travel-1e00a.web.app/home)
 
 
 
