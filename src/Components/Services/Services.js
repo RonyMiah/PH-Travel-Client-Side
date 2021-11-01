@@ -17,7 +17,7 @@ const Services = () => {
 
     useEffect(()=>{
         setIsLoading(true)
-        fetch('http://localhost:5000/services')
+        fetch('https://ph-travel.herokuapp.com/services')
         .then(res => res.json())
         .then(data => {
             setService(data)

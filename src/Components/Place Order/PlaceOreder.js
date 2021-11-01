@@ -16,7 +16,7 @@ const PlaceOreder = () => {
     // get the data by service name 
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/place-order/${service_name}`)
+        fetch(`https://ph-travel.herokuapp.com/services/place-order/${service_name}`)
         .then(res => res.json())
         .then(data => {
           setService(data)
@@ -32,7 +32,7 @@ const PlaceOreder = () => {
             
             console.log('clicked')
 
-            await fetch('http://localhost:5000/place-order',{
+            await fetch('https://ph-travel.herokuapp.com/place-order',{
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/json'

@@ -13,7 +13,7 @@ const ManageOrders = () => {
     
 
     useEffect(()=>{
-        fetch('http://localhost:5000/my-orders')
+        fetch('https://ph-travel.herokuapp.com/my-orders')
         .then(res => res.json())
         .then(data => setOrders(data));
     }, []);
@@ -26,7 +26,7 @@ const ManageOrders = () => {
         const procced = window.confirm("Do you want to Cancel this order?")
 
         if(procced && status.toString() !== 'Completed'){
-            const url = `http://localhost:5000/cancel-order/${id}`
+            const url = `https://ph-travel.herokuapp.com/cancel-order/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

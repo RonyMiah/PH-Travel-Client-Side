@@ -30,7 +30,7 @@ const AddService = () => {
     const handleAddNewServices = (data) =>{
         
 
-        fetch('http://localhost:5000/add-new-services', {
+        fetch('https://ph-travel.herokuapp.com/add-new-services', {
             method: 'POST', 
             headers: {
                 'Content-Type': 'application/json'
@@ -51,7 +51,7 @@ const AddService = () => {
     // use effect for get the data 
 
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://ph-travel.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setCount(data))
     }, [])
