@@ -23,7 +23,7 @@ const Cars = () => {
 
     console.log('all cars', cars)
     return (
-       <div>
+       <div> 
             <h1 className="text-center fw-bold my-5 services__heading">Find A Perfect <span className="underline-highlight">Car</span></h1>
             
 
