@@ -1,33 +1,33 @@
-.banner-design{
-    background: url(https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
-  }.banner-design .text h1{
-    padding-top: 180px;
+.banner-design {
+  background: url(https://images.pexels.com/photos/2507007/pexels-photo-2507007.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+ 
+}
+.banner-design .text h1 {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  font-size: 100px;
+  color: #61d3dd;
+  font-weight: 700;
+}
+.banner-design .text h2 {
+  font-size: 60px;
+  color: #febd29;
+  padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .banner-design .text h1 {
+    padding-top: 80px;
     padding-bottom: 50px;
-    font-size: 100px;
-    color: #fff;
+    font-size: 30px;
   }
-  .banner-design .text h2{
-    font-size: 60px;
-    color: #febd29;
-    padding-bottom: 80px;
+  .banner-design .text h2 {
+    font-size: 40px;
+    color: #09d3eee7;
+    padding-bottom: 50px;
   }
-  
-  @media only screen and (min-width: 320px) and (max-width: 500px) {
-  
-    .banner-design .text h1{
-      padding-top: 80px;
-      padding-bottom: 50px;
-      font-size: 30px;
-      
-    }
-    .banner-design .text h2{
-      font-size: 40px;
-      color: #09d3eee7;
-      padding-bottom: 50px;
-    }
-  
-  }
+}
