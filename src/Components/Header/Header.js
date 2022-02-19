@@ -12,7 +12,7 @@ const Header = () => {
     <div className="container-fluid shadow shadow-b-lg">
       <Navbar expand="lg" className="fw-bold">
         <Container fluid>
-          <Navbar.Brand href="#"><img className='w-25' src="https://i.ibb.co/LQx21FN/PH.png" alt="" /></Navbar.Brand>
+          <Navbar.Brand href="#"><img style={{width:'35%'}} src="https://i.ibb.co/LQx21FN/PH.png" alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
